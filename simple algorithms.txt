@@ -1,0 +1,116 @@
+q.no 1
+
+
+# Algorithm: Sum of Natural Numbers
+Input:
+- n: a positive integer
+
+Output:
+- sum: the sum of all natural numbers from 1 to n
+
+Steps:
+1. Initialize sum to 0.
+2. For i from 1 to n, add i to sum.
+3. Return sum.
+
+Example:
+Input: n = 5
+Output: sum = 1 + 2 + 3 + 4 + 5 = 15
+
+
+
+
+q.no 2
+
+
+# Algorithm: Check for Prime Number
+Input:
+- n: a positive integer
+
+Output:
+- "Prime" if n is a prime number, "Not Prime" otherwise
+
+Steps:
+1. Check if n is less than 2. If yes, return "Not Prime".
+2. Initialize a variable i to 2.
+3. While i is less than or equal to the square root of n, check if n is divisible by i.
+4. If n is divisible by i, return "Not Prime".
+5. Increment i by 1.
+6. If the loop completes without finding a divisor, return "Prime".
+
+Example:
+Input: n = 11
+Output: "Prime"
+
+Input: n = 15
+Output: "Not Prime"
+
+
+
+
+q.no 3
+
+
+# Algorithm: Find the Maximum of Three Numbers
+Input:
+- a: a real number
+- b: a real number
+- c: a real number
+
+Output:
+- max: the maximum of a, b, and c
+
+Steps:
+1. Initialize max to a.
+2. Compare max with b. If b is greater than max, update max to b.
+3. Compare max with c. If c is greater than max, update max to c.
+4. Return max.
+
+Example:
+Input: a = 10, b = 20, c = 30
+Output: max = 30
+
+
+
+
+q.no 4
+
+# Algorithm: Factorial Calculation
+Input:
+- n: a non-negative integer
+
+Output:
+- factorial: the factorial of n
+
+Steps:
+1. Initialize factorial to 1.
+2. For i from 1 to n, multiply factorial by i.
+3. Return factorial.
+
+Example:
+Input: n = 5
+Output: factorial = 5! = 5 × 4 × 3 × 2 × 1 = 120
+
+
+
+q.no 5
+
+# Algorithm: Check if a Number is Even or Odd
+Input:
+- n: an integer
+
+Output:
+- "Even" if n is even, "Odd" if n is odd
+
+Steps:
+1. Check if n is divisible by 2.
+2. If n is divisible by 2, return "Even".
+3. Otherwise, return "Odd".
+
+Example:
+Input: n = 10
+Output: "Even"
+
+Input: n = 11
+Output: "Odd"
+
